@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main class="main">
+  <section class="container">
+    <div class="report-container">
+      <div class="report">
+        <img class="man-icon" src="/images/image-jeremy.png" alt="man image">
+        <div>
+          <p class="small-text text-color">Report for</p>
+          <p class="big-text">Jeremy Robson</p>
+        </div>
+      </div>
+      <div class="time-options">
+        <button id="daily-btn" class="text-color">Daily</button>
+        <button id="weekly-btn" class="text-color active">Weekly</button>
+        <button id="monthly-btn" class="text-color">Monthly</button>
+      </div>
+    </div>
+    <div class="activity-container">
+      <div class="activity-details work">
+        <div class="background bag-icon"> 
+        </div>
+        <div class="activity-information activity-information-work">
+          <div class="title">
+            <p>work</p>
+            <p>...</p>
+          </div>
+          <div class="text">
+            <h2 class="hours">32hrs</h2>
+            <p class="previous-time">Last Week-36hrs</p>
+          </div>
+          
+        </div>
+      </div>
+        <div class="activity-details play">
+          <div class="background game-icon">
+          </div>
+          <div class="activity-information activity-information-play">
+            <div class="title">
+              <p>Play</p>
+              <p>...</p>
+            </div>
+            <div class="text">
+              <h2 class="hours">10hrs</h2>
+              <p class="previous-time">Last Week-8hrs</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="activity-details study">
+          <div class="background book-icon">
+          </div>
+          <div class="activity-information activity-information-study">
+            <div class="title">
+              <p>Study</p>
+              <p>...</p>
+            </div>
+            <div class="text">
+              <h2 class="hours">4hrs</h2>
+              <p class="previous-time">Last Week-7hrs</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="activity-details exercise">
+          <div class="background exercise-icon">
+          </div>
+          <div class="activity-information activity-information-exercise">
+            <div class="title">
+              <p>Exercise</p>
+              <p>...</p>
+            </div>
+            <div class="text">
+              <h2 class="hours">4hrs</h2>
+              <p class="previous-time">Last Week-5hrs</p>
+            </div>
+           
+          </div>
+        </div>
+        <div class="activity-details social">
+          <div class="background social-icon">
+          </div>
+          <div class="activity-information activity-information-play">
+            <div class="title">
+              <p>Social</p>
+              <p>...</p>
+            </div>
+            <div class="text">
+              <h2 class="hours">5hrs</h2>
+              <p class="previous-time">Last Week-10hrs</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="activity-details self-care">
+          <div class="background self-care-icon">
+          </div>
+          <div class="activity-information activity-information-self-care">
+            <div class="title">
+              <p>Self Care</p>
+              <p>...</p>
+            </div>
+            <div class="text">
+              <h2 class="hours">2hrs</h2>
+              <p class="previous-time">Last Week-2hrs</p>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/ashwinihingolikar" target="_blank">Ashwini Hingolikar</a>.
+  </div>
+</main>
+<script src="data.json"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
